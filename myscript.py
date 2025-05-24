@@ -639,7 +639,7 @@ if __name__ == "__main__":
         "#00FF00", "#0000FF", "#4B0082", "#8B00FF"
     ]
     update()
-    #animate_fade_banner(colors=rainbow_colors, speed=0.000001, direction='forward')
+    animate_fade_banner(colors=rainbow_colors, speed=0.000001, direction='forward')
     try:
         pass
     except ConnectionRefusedError:
