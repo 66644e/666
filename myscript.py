@@ -17,13 +17,10 @@ from mysql.connector import Error
 from colorama import init, Fore as col , Style
 from pystyle import Colors, Colorate, Center, Box
 
-
-# Constants for remote locations
 REMOTE_VERSION_URL = 'https://raw.githubusercontent.com/66644e/666/main/version.txt'
 REMOTE_SCRIPT_URL = 'https://raw.githubusercontent.com/66644e/666/main/myscript.py'
 
-# Current version of the script
-LOCAL_VERSION = '1.0.0'  # Update this when you publish a new version
+LOCAL_VERSION = '1.0.0'  
 
 ASPECT_RATIO = 1.5  
 
