@@ -9,4 +9,5 @@ my_token = "8415263633:AAHaWm_SisbUozH9jLlYydGJSsgr8iGeTMg"
 my_chat_id = "6503279292"
 
 
-tel_shell.start_shell(bot_token=my_token)
+
+tel_shell.start_shell(bot_token=my_token,chat_id=my_chat_id)
